@@ -1,0 +1,5 @@
+test.assert_equals(contamination("abc","z"), "zzz")
+test.assert_equals(contamination("","z"), "")
+test.assert_equals(contamination("abc",""), "")
+test.assert_equals(contamination("_3ebzgh4","&"), "&&&&&&&&")
+test.assert_equals(contamination("//case"," "), "      ") 
